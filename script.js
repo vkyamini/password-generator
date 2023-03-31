@@ -9,6 +9,7 @@ var yourPassword="";
 var password="";
 
 var onclickBtn=document.querySelector("#button");
+var passwordBox=document.querySelector("#password");
 
 
 alert("hai")
@@ -115,7 +116,8 @@ console.log(tada, "tada");
 onclickBtn.addEventListener("click",function()
  {
  
-   alert("your password is: " + tada)
+    passwordBox.textContent = tada;
+   // alert("your password is: " + tada)
 
 });
 
@@ -127,19 +129,5 @@ onclickBtn.addEventListener("click",function()
 
 
 
-
-
-//This logic saved  my ass
-
-//alert("your password is: " +password)
-
- //for(var i=0;i<5;i++)
-//{
-//password = password+upperCase[Math.floor(Math.random()*upperCase.length)];
-//password = password+lowerCase[Math.floor(Math.random()*lowerCase.length)];
-//password = password+passSymbols[Math.floor(Math.random()*passSymbols.length)];
-//password = password+passNum[Math.floor(Math.random()*passSymbols.length)];
-//}
-//console.log(password)
 
 
