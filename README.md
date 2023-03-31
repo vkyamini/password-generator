@@ -1,6 +1,6 @@
 # password-generator
 
-Link to application on github pages: 
+Link to application on github pages:https://vkyamini.github.io/password-generator/ 
 
 ## Technologies Used
 
