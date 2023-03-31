@@ -115,10 +115,7 @@ tada = [storePssLength]+[storeUcAdd]+[storeLcAdd]+[symbol];
 console.log(tada, "tada");
 onclickBtn.addEventListener("click",function()
  {
- 
     passwordBox.textContent = tada;
-   // alert("your password is: " + tada)
-
 });
 
 
